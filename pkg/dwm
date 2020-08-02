@@ -1,10 +1,10 @@
 [mirrors]
-http://dl.suckless.org/dwm/dwm-6.1.tar.gz
+http://dl.suckless.org/dwm/dwm-6.2.tar.gz
 
 [vars]
-filesize=25887
-sha512=875644bbc246088f2c87e50debbadd4bc179444b396b1b327149087e8bc5303325ebc9103a7e3c864266ee1ac683ea3cd8f0a08285c8e46fc4389d5b83a555f1
-pkgver=2
+filesize=25273
+sha512=01abcab954e5b7c20d011e6fd9c28025271fea2e85610c928812f7c6a09f99d7f9e93d11ffc2d6a7aca894b3fa7e507c6c2fe5f26ff5ddcfc650a9bbaaa41e06
+pkgver=3
 
 [deps]
 fontconfig
@@ -24,7 +24,7 @@ sed -i 's/define MODKEY Mod1Mask/define MODKEY Mod4Mask/' config.def.h
 make \
   PREFIX="$butch_prefix" \
   CFLAGS="-I$butch_root_dir$butch_prefix/include/freetype2  \
-          $optcflags -D_GNU_SOURCE -DVERSION=\\\"6.1\\\" -DXINERAMA" \
+          $optcflags -D_GNU_SOURCE -DVERSION=\\\"6.2\\\" -DXINERAMA" \
   LDFLAGS="$optldflags -lX11 -lXinerama -lXau -lXdmcp -lxcb -lX11-xcb \
            -lXft -lfontconfig" \
   -j$MAKE_THREADS
