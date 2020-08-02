@@ -1,10 +1,10 @@
 [mirrors]
-https://github.com/unicode-org/icu/releases/download/release-59-1/icu4c-59_1-src.tgz
+https://github.com/unicode-org/icu/releases/download/release-59-2/icu4c-59_2-src.tgz
 
 [vars]
-filesize=22706578
-sha512=9348aa68d72a74cd1f26588c30c80eee1b48800a26930d7eb0749390fd65f7930ee8843058b6a6dd5f265e79054fef661e807ded16a1ad691cbc5ebc5ab944c4
-pkgver=2
+filesize=22704278
+sha512=cc8c187fd9e1e249f3b77f7ec92b414dd2e1ea6a4508749c3c7ba521cc80dfbc7888a29a2eeb42d2ef6d750d7381b37114e73372d22fcab3445d45e852fae398
+pkgver=3
 tardir=icu
 
 [deps]
