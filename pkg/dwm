@@ -14,6 +14,8 @@ libxcb
 libxau
 libxdmcp
 libxinerama
+st
+dmenu
 
 [build]
 # use windows (meta) key instead of Alt, which is used by many progs
